@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+            background-color: rgb(30, 28, 28);
+        }
+        .container{
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        .container h1{
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .container button{
+            padding: 10px 25px;
+            gap: 20px;
+            margin: 5px;
+            font-size: 20px;
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+        }
+        #startBtn{
+            background-color: rgb(1, 85, 1);
+        }
+        #stopBtn{
+            background-color: blueviolet;
+        }
+        #clearBtn{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Simple Counter</h1>
+        <h1 id="counterText">00</h1>
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <!-- Script link -->
+     <script src="js/script.js"></script>
+</body>
+</html>
