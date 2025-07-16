@@ -10,7 +10,7 @@ This is a simple and interactive **Counter App** created using **HTML**, **CSS**
 
 > Here's how it looks in action:
 
-![Simple Counter Screenshot](images/Screenshot.png)
+![Simple Counter Screenshot](Screenshot.png)
 
 ---
 
